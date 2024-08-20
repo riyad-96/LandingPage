@@ -1,0 +1,50 @@
+@media (max-width: 600px) {
+  .nav{
+    padding: 0 5vw;
+    height: 60px;
+  }
+  .nav h2{
+    font-size: 6vw;
+  }
+  .nav h4{
+    font-size: 3.5vw;
+    display: none;
+  }
+  .nav button{
+    display: none;
+  }
+  .nav i{
+    display: block;
+    font-size: 5vw;
+  }
+  .content{
+    height: calc(100% - 60px);
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .left{
+    width: 100%;
+    height: 50%;
+    padding: 4vw 5vw;
+  }
+  .left h1{
+    font-size: 10vw;
+  }
+  .left p{
+    font-size: 4vw;
+    width: 100%;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  .content button{
+    padding: 3vw 7vw;
+    font-size: 3.5vw;
+    font-weight: 700;
+    border-radius: 3px;
+  }
+  
+  .right{
+    width: 100%;
+    height: 40%;
+  }
+}
