@@ -1,7 +1,9 @@
 :root{
   --primary: #ff735c;
 }
-
+::selection{
+  background: #ffbab0;
+}
 *{
   margin: 0;
   padding: 0;
